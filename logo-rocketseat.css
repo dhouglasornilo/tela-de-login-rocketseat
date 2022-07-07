@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #121214;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.kid-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    max-width: 1280px;
+}
+
+.left-container, .right-container {
+    width: 50%;
+    height: 480px;
+}
+
+.left-container {
+    display: flex;
+    padding-right: 80px;
+    align-items: center;
+}
+
+.logo-left-container h1 {
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 50px;
+}
+
+.right-container {
+    background-color: #202024;
+    border-radius: 5px;
+    padding: 60px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    padding-left: 45px;
+    border-radius: 5px;
+}
+
+
+#email, #password {
+background: transparent;
+padding-left: 0;
+outline: #8257E5;
+border: none;
+color: white
+}
+
+.email-container, .password-container {
+margin-top: 10px;
+display: flex;
+align-items: center;
+background-color: #121214;
+border-radius: 5px;
+padding: 5px 0;
+border: 2px solid #8257E5;
+}
+
+.email-icon, .cadeado {
+margin-left: 15px;
+margin-right: 12.5px;
+}
+
+.cadeado, .email-icon, .olhinho {
+fill: #8257E5;
+}
+
+
+.cadeado, .email-icon {
+min-width: 15px;
+max-width: 20px;
+min-height: 15px;
+max-height: 20px;
+}
+
+.olhinho {
+margin-right: 15px;
+min-width: 20px;
+max-width: 24px;
+min-height: 20px;
+max-height: 24px;
+}
+
+.esqueci-senha {
+display: block;
+font-weight: bold;
+color: #6A4AB6;
+text-decoration: none;
+margin-top: 10px;
+margin-bottom: 25px;
+font-size: 14px;
+transition: filter (0.2s);
+}
+
+.login {
+width: 100%;
+padding: 15px 0;
+border-radius: 5px;
+color: white;
+background-color: #8257E5;
+border: none;
+font-size: 1em;
+font-weight: 700;
+transition: filter 0.3;
+}
+
+.login:hover {
+filter: brightness(1.2);
+cursor: pointer;
+}
+
+.no-account {
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+margin: 20px 0;
+gap: 5px;
+font-size: 14px;
+}
+
+.registre-se {
+color: #6A4AB6;
+font-weight: bold;
+text-decoration: none;
+font-size: 14px;
+transition: filter (0.2s);
+}
+
+
+.esqueci-senha:hover, .registre-se:hover {
+color: #8257E6;
+filter: brightness(1.2);
+}
+
+.space-lines {
+    border: 1px solid #242329;
+    width: 100%;
+}
+
+.container-github {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.github {
+    display: flex;
+    width: 70%;
+    padding: 15px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    background-color: #29292E;
+    transition: filter 0.3;
+}
+
+.github-name {
+    text-decoration: none;
+    color: white;
+}
+
+.github:hover {
+    background-color: #8257E5;
+    filter: brightness(1.2);
+}
+
+.github-icon {
+    fill: #8257E5;
+    margin-right: 10px;
+    min-width: 20px;
+    max-width: 24px;
+    min-height: 20px;
+    max-height: 24px;
+}
+
+.github:hover .github-icon {
+    fill: white;
+}
